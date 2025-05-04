@@ -20,4 +20,4 @@ print(f"Total Articles: {total_articles}")
 df.select("label").distinct().show()
 
 # Step 7: Save sample query result to CSV
-df.limit(5).toPandas().to_csv("task1_output.csv", index=False)
+df.limit(5).toPandas().to_csv("output/task1_output.csv", index=False)
